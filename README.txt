@@ -1,7 +1,9 @@
 Credits and Attribution
-This library incorporates code originally developed by Punch Through Design LLC, which is licensed under the Apache License, Version 2.0.
+This library incorporates code originally developed by Punch Through Design LLC, which is licensed
+under the Apache License, Version 2.0.
 
-Modifications to the original code have been made by Pretty Smart Labs. These modifications include (but are not limited to):
+Modifications to the original code have been made by Pretty Smart Labs. These modifications include
+(but are not limited to) documentation, comments, and improvements listed below:
 
 ConnectionEventListener.kt:
 - onReadRemoteRssi callback added
@@ -28,10 +30,12 @@ ConnectionManager.kt:
 onGattDiscoveringServices callback is invoked when a discovery of services in a gatt is called.
 - GATT callback modified when the gatt fails, the error is analyzed using analyzeConnectionError
     and send to teardownConnection function.
-- onDisconnectDueToFailure callback is invoked when a device is disconnected due to a failure in the connection.
+- onDisconnectDueToFailure callback is invoked when a device is disconnected due to a failure in the
+ connection.
 - onFailedToDisconnect callback is invoked when a disconnection to a device fails.
 - onGattDisconnected callback is invoked when a gatt disconnects.
-- analyzeConnectionError function and the sealed class DisconnectionError have been added to handle connection errors
+- analyzeConnectionError function and the sealed class DisconnectionError have been added to handle
+connection errors
 - teardownConnection function has been added to handle connection errors.
 - onBondStateChanged callback is invoked when the bond state of a device changes.
 
