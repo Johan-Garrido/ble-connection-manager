@@ -42,9 +42,9 @@ publishing {
                 // Tell Maven Publish where to get the artifact (the AAR)
                 from(components["release"])
                 // Provide additional POM metadata if needed
-                groupId = "com.github.JohanGarridoPSL"
+                groupId = "com.github.Johan-Garrido"
                 artifactId = "ble-connection-manager"
-                version = "1.2.0"
+                version = "1.3.0"
             }
         }
     }
